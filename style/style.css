@@ -103,3 +103,38 @@ p {
 .accordion-button {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+body {
+  background: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-control {
+  padding-left: 2.5rem;
+}
+
+.input-group-text {
+  background: none;
+  border: none;
+}
+
+.btn-primary {
+  background-color: blue;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5a3a84;
+}
